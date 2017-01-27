@@ -1,0 +1,49 @@
+$main-color: #1CAA98
+$c-jumbo-main: #ffffff
+
+div .jumbotron
+  background-image: url('../material/img/site_showcase_bg.jpg')
+  background-size: cover
+  height: 600px
+  color: $c-jumbo-main
+  margin: 0
+  .jumbo-left
+    display: flex
+    flex-direction: column
+    height: 100%
+  .jumbo-img
+    margin-top: 8px
+  h1
+    font-weight: 600
+    margin-bottom: 20px;
+    span
+      color: #1caa98
+
+main section:nth-child(2)
+  padding: 50px 0
+
+main section:nth-child(3)
+  background-color: $main-color
+  .feature-list
+    color: #ffffff
+    h4
+      font-size: 50px
+      font-weight: 600
+      margin-top: 50px;
+    ul li p
+      font-size: 20px
+  .container
+    padding-bottom: 40px
+    div:nth-child(2)
+      margin-top: 30px
+
+@media all and (max-width: 581px)
+  div .jumbotron
+    height: 400px
+
+
+@media all and (max-width: 451px)
+  div .jumbotron
+    text-align: center
+    .jumbo-left
+        padding-top: 0px

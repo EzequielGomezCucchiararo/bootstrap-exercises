@@ -1,0 +1,93 @@
+header {
+  color: red;
+}
+
+.navbar-default {
+  margin-bottom: 0;
+}
+
+div .jumbotron {
+  background-image: url("../material/img/site_showcase_bg.jpg");
+  background-size: cover;
+  height: 600px;
+  color: #ffffff;
+  margin: 0;
+}
+
+div .jumbotron .jumbo-left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+div .jumbotron .jumbo-img {
+  margin-top: 8px;
+}
+
+div .jumbotron h1 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+div .jumbotron h1 span {
+  color: #1caa98;
+}
+
+main section:nth-child(2) {
+  padding: 50px 0;
+}
+
+main section:nth-child(3) {
+  background-color: #1CAA98;
+}
+
+main section:nth-child(3) .feature-list {
+  color: #ffffff;
+}
+
+main section:nth-child(3) .feature-list h4 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+main section:nth-child(3) .feature-list ul li p {
+  font-size: 20px;
+}
+
+main section:nth-child(3) .container {
+  padding-bottom: 40px;
+}
+
+main section:nth-child(3) .container div:nth-child(2) {
+  margin-top: 30px;
+}
+
+@media all and (max-width: 581px) {
+  div .jumbotron {
+    height: 400px;
+  }
+}
+
+@media all and (max-width: 451px) {
+  div .jumbotron {
+    text-align: center;
+  }
+  div .jumbotron .jumbo-left {
+    padding-top: 0px;
+  }
+}
+
+footer .footer-div {
+  background-color: #333333;
+  color: white;
+  font-weight: 600;
+}
+
+footer .footer-div div div {
+  padding-top: 20px;
+}
+
+footer .footer-div div div p {
+  text-align: right;
+}
